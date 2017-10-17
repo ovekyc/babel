@@ -1,3 +1,5 @@
+import "@babel/polyfill/lib/core-js/modules/es6.array.sort";
+import "@babel/polyfill/lib/core-js/modules/es6.function.bind";
 import "@babel/polyfill/lib/core-js/modules/es7.object.values";
 import "@babel/polyfill/lib/core-js/modules/es7.object.entries";
 import "@babel/polyfill/lib/core-js/modules/es7.object.get-own-property-descriptors";

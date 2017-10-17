@@ -1,3 +1,5 @@
+require("@babel/polyfill/lib/core-js/modules/es6.array.sort");
+
 require("@babel/polyfill/lib/core-js/modules/es7.string.pad-start");
 
 require("@babel/polyfill/lib/core-js/modules/es7.string.pad-end");

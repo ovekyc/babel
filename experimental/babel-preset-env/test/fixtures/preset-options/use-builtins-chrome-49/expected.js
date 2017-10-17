@@ -1,3 +1,4 @@
+import "@babel/polyfill/lib/core-js/modules/es6.array.sort";
 import "@babel/polyfill/lib/core-js/modules/es6.typed.array-buffer";
 import "@babel/polyfill/lib/core-js/modules/es6.typed.int8-array";
 import "@babel/polyfill/lib/core-js/modules/es6.typed.uint8-array";
