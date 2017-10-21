@@ -7,7 +7,7 @@ function relative(loc) {
   return path.join(__dirname, "..", loc);
 }
 
-const builtIns = require("@babel/preset-env/data/built-ins.json");
+const builtIns = require("../../../experimental/babel-preset-env/data/built-ins.json");
 const polyfills = Object.keys(builtIns);
 
 polyfills
@@ -15,11 +15,11 @@ polyfills
   .forEach(polyfill => {
     fs.writeFileSync(
       relative(`src/core-js/modules/${polyfill}.js`),
-      `require("core-js/modules/${polyfill}");`
+      `require("core-js/modules/${polyfill}");\n`
     );
   });
 
 fs.writeFileSync(
   relative("src/regenerator-runtime/runtime.js"),
-  'require("regenerator-runtime/runtime");'
+  'require("regenerator-runtime/runtime");\n'
 );
