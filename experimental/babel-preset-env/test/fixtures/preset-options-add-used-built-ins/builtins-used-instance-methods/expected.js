@@ -8,6 +8,7 @@ import "@babel/polyfill/lib/core-js/modules/es6.string.starts-with";
 import "@babel/polyfill/lib/core-js/modules/es7.string.pad-end";
 import "@babel/polyfill/lib/core-js/modules/es7.string.pad-start";
 import "@babel/polyfill/lib/core-js/modules/es6.array.fill";
+import "@babel/polyfill/lib/core-js/modules/es6.function.bind";
 import "@babel/polyfill/lib/core-js/modules/es6.array.find-index";
 import "@babel/polyfill/lib/core-js/modules/es6.array.find";
 import "@babel/polyfill/lib/core-js/modules/es7.array.includes";
