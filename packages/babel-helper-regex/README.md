@@ -3,3 +3,9 @@
 ## Usage
 
 TODO
+
+## Installation
+
+```sh
+npm install --save-dev @babel/helper-regex
+```
